@@ -48,14 +48,15 @@ body {
   flex-direction: column;
   position: relative;
   padding: 0;
-}
-
-.nav-first-element {
-  margin-left: 0;
+  text-align: center;
 }
 
 .nav-button:hover {
   color: var(--primary-color);
+}
+
+.nav-list li:first-child .nav-button {
+  margin-left: 0;
 }
 
 .is-active {
